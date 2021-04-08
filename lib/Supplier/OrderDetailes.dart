@@ -17,7 +17,7 @@ class _OrderDetailsPageState extends State<OrderDetailsPage> {
           color: Colors.black,
           icon: Icon(Icons.arrow_back_ios),
           onPressed: () {
-            Navigator.pushNamed(context, '/');
+            Navigator.of(context).pop(true);
           },
         ),
       ),
