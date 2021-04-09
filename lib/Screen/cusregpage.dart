@@ -18,7 +18,7 @@ class _CusRegPageState extends State<CusRegPage> {
           color: Colors.grey,
           icon: Icon(Icons.arrow_back_ios),
           onPressed: () {
-            Navigator.pushNamed(context, '/');
+            Navigator.of(context).pop(true);
           },
         ),
       ),
