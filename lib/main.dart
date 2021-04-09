@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_appsecond/Screen/homepage.dart';
+import 'package:flutter_appsecond/Screen/landingpage.dart';
 import 'package:flutter_appsecond/Supplier/SupplierPart.dart';
 import 'package:flutter_appsecond/Customer/CustomerPart.dart';
 void main() {
@@ -13,7 +15,9 @@ class SettingsUI extends StatelessWidget {
       title: 'Setting UI',
       ////////// You can choose the part to show in here /////////////////
       // home: SupplierPart(),
-      home: CustomerPart(),
+      // home: CustomerPart(),
+      home: LandingPage(),
+
 
     );
   }
